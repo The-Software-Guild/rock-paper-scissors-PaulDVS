@@ -11,13 +11,12 @@ public class RockPaperScissors {
         Scanner inputReader = new Scanner(System.in);
         Random randomizer = new Random();
         int rounds;
-        int continueGame = 0;
         int playerChoice;
         int aiChoice;
         int gamesWon;
         int gamesLost;
         int gamesDrawn;       
-        
+        int continueGame = 0;
         
         do{;
             //reset variables for new game
@@ -25,6 +24,7 @@ public class RockPaperScissors {
             gamesWon = 0;
             gamesLost = 0;
             gamesDrawn = 0;
+            continueGame = 0;
             
             //Checks how many rounds the player and ai will battle
             System.out.println("Hello. How many rounds do you want to play? (1-10)");
